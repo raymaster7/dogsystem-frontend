@@ -26,3 +26,59 @@ code {
 .container.dark{
   background: #222;
 }
+body{
+  height: 100vh;
+  background-image: linear-gradient(#D8c7ff, #19006c);
+  font-family: 'poppins';
+}
+
+.nav-item{
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon-button{
+  font-size: 20px;
+  color: #0b061a;
+  width: 150px;
+  height: 30px;
+  background-color: #b7bdc5;
+  padding: 5px;
+  margin: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  transition: filter 300ms;
+}
+
+.icon-button:hover{
+  filter: brightness(1.2);
+}
+
+.dropdown{
+  position: absolute;
+  width: 200px;
+  transform: translateY(75%);
+  background-color: aliceblue;
+  border: #222;
+  border-radius: 5%;
+  padding: 1rem;
+  overflow: hidden;
+}
+
+
+.menu-item{
+  height: 30px;
+  display: flex;
+  align-items: center;
+  border-radius: var(--border-radius);
+  transition: background var(--speed);
+  padding: 0.5rem;
+}
+
+.menu-item:hover{
+  background-color: rgb(168, 192, 192);
+}
